@@ -51,7 +51,7 @@ def gameLogic(dice1, dice2):
         if additionalDice == 6:
             print("Jeśli wypadnie 6, to gracz musi oddać wszystkie kury do wspólnej puli.")
             hens = 0
-            haHa = random.randint(1,4)
+            haHa = random.randint(1,5)
             if haHa == 1:
                 print("Ha, ha")
             elif haHa == 2:
@@ -60,6 +60,8 @@ def gameLogic(dice1, dice2):
                 print("Ha, he")
             elif haHa == 4:
                 print("He, ha")
+            elif haHa == 5:
+                print("Ha, ha, he")
     elif dice1 == 6 and dice2 == 6:
         print("Przychodzi lis")
         if rooster:
