@@ -10,7 +10,7 @@ chickens = 0
 hens = 0
 rooster = False
 
-USE_RANDOM = True
+USE_RANDOM = False
 
 def rollDice():
     if USE_RANDOM:
